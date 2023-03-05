@@ -21,22 +21,22 @@ internal class Program
             
         }
 
-        double somar(double n1, double n2)
+        double somar()
         {
             return n1 + n2;
         }
 
-        double subtrair(double n1, double n2)
+        double subtrair()
         {
             return n1 - n2;
         }
 
-        double multiplicar(double n1, double n2)
+        double multiplicar()
         {
             return n1 * n2;
         }
 
-        double dividir(double n1, double n2)
+        double dividir()
         {
             return n1 / n2;
         }
@@ -57,22 +57,22 @@ internal class Program
 
 
                 case 1:
-                    Console.WriteLine(" A soma dos numeros é: " + somar(n1,n2).ToString("F2"));
+                    Console.WriteLine(" A soma dos numeros é: " + somar().ToString("F2"));
                     Console.ReadLine();
                     break;
 
                 case 2:
-                    Console.WriteLine(" A subtração dos numeros é: " + subtrair(n1,n2).ToString("F2"));
+                    Console.WriteLine(" A subtração dos numeros é: " + subtrair().ToString("F2"));
                     Console.ReadLine();
                     break;
 
                 case 3:
-                    Console.WriteLine(" A multiplicação  dos numeros é: " + multiplicar(n1,n2).ToString("F2"));
+                    Console.WriteLine(" A multiplicação  dos numeros é: " + multiplicar().ToString("F2"));
                     Console.ReadLine();
                     break;
 
                 case 4:
-                    Console.WriteLine(" A divisao  dos numeros é: " + dividir(n1,n2).ToString("F2"));
+                    Console.WriteLine(" A divisao  dos numeros é: " + dividir().ToString("F2"));
                     Console.ReadLine();
                     break;
 
