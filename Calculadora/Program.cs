@@ -4,7 +4,7 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        double n1, n2;
+        double n1=0, n2 = 0;
         int opcao = 0;
 
         int Menu()
@@ -45,11 +45,16 @@ internal class Program
         {
 
             opcao = Menu();
-            Console.WriteLine(" Informe o primeiro numero: ");
-            n1 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine(" Informe o segundo numero: ");
-            n2 = double.Parse(Console.ReadLine());
+            if(opcao != 5)
+            {
+                Console.WriteLine(" Informe o primeiro numero: ");
+                n1 = double.Parse(Console.ReadLine());
+
+                Console.WriteLine(" Informe o segundo numero: ");
+                n2 = double.Parse(Console.ReadLine());
+            }
+            
             
             switch (opcao)
             {
